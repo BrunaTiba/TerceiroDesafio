@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a495a"
+    tools:context=".superMarket">
+
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="445dp"
+        android:layout_gravity="center"
+        android:background="#1a495a"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="35dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="83dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/apple"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="285dp"
+            android:layout_gravity="center"
+            android:animateLayoutChanges="true"
+            android:background="#1a495a"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="113dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parabéns, você esta logado"
+                android:textColor="@android:color/background_light"
+                app:fontFamily="casual"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="259dp" />
+
+            <Button
+                android:id="@+id/btTelalogado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFF8800"
+                android:onClick="irTelalogin"
+                android:text="Voltar"
+                android:textColor="@android:color/background_light"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="422dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
