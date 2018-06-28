@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".superMarket" />
         <activity android:name=".terceiratela" />
-        <activity android:name=".telacadastrar"></activity>
+        <activity android:name=".telacadastrar" />
+        <activity android:name=".telacadastrar2"></activity>
     </application>
 
 </manifest>
